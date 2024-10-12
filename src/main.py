@@ -73,7 +73,7 @@ def extract_content(soup):
 
 def main():
     content = scrape_sierra_chart_docs(pages_to_scrape)
-    with open("sierra-chart-docs-1.txt", "w", encoding="utf-8") as f:
+    with open("../output/sierra-chart-docs-1.txt", "w", encoding="utf-8") as f:
         f.write(content)
 
 
